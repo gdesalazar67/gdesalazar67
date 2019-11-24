@@ -669,7 +669,7 @@ $(window).load(function(){
 					content = $this.data('content'),
 					demoLink = $this.data('demo-link'),
 					gitHubLink = $this.data('github-link');
-					console.log($this.data());
+					console.log(gitHubLink);
 
 					if ( imgSrc ) {
 						portImgArea.html('<img src="'+imgSrc+'" alt="Portfolio Image" />');
