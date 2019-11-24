@@ -668,7 +668,7 @@ $(window).load(function(){
 					title = $this.data('title'),
 					content = $this.data('content'),
 					demoLink = $this.data('demo-link'),
-					gitHubLink = $this.data('gitHub-link');
+					gitHubLink = $this.data('github-link');
 					console.log($this.data());
 
 					if ( imgSrc ) {
