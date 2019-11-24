@@ -666,7 +666,7 @@ $(window).load(function(){
 					var imgSrc = $this.data('image-source'),
 					title = $this.data('title'),
 					content = $this.data('content'),
-					demoLink = $this.data('demo-link');
+					// demoLink = $this.data('demo-link');
 
 
 					if ( imgSrc ) {
