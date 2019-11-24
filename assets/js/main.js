@@ -653,6 +653,7 @@ $(window).load(function(){
 			portTitle = portfolioModal.find('.modal-content .title'),
 			portContent = portfolioModal.find('.modal-content .m-content'),
 			portLink = portfolioModal.find('.modal-footer .modal-action');
+			portGitHubLink = portfolioModal.find('.modal-footer .modal-action1');
 		
 		$('#protfolio-msnry').delegate('a.modal-trigger', 'click', function(e){
 			e.preventDefault();
@@ -667,6 +668,7 @@ $(window).load(function(){
 					title = $this.data('title'),
 					content = $this.data('content'),
 					demoLink = $this.data('demo-link');
+					gitHubLink = $this.data('gitHub-link');
 
 
 					if ( imgSrc ) {
@@ -677,6 +679,7 @@ $(window).load(function(){
 					portTitle.text(title);
 					portContent.text(content);
 					portLink.attr('href', demoLink);
+					portGitHubLink.attr('href', gitHubLink);
 				}
 			});
 		});
