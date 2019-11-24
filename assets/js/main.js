@@ -680,6 +680,7 @@ $(window).load(function(){
 					portContent.text(content);
 					portLink.attr('href', demoLink);
 					portGitHubLink.attr('href', gitHubLink);
+					console.log(portGitHubLink.innerHTML);
 				}
 			});
 		});
