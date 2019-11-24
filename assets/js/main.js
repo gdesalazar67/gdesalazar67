@@ -669,7 +669,7 @@ $(window).load(function(){
 					content = $this.data('content'),
 					demoLink = $this.data('demo-link'),
 					gitHubLink = $this.data('gitHub-link');
-
+					console.log(gitHubLink);
 
 					if ( imgSrc ) {
 						portImgArea.html('<img src="'+imgSrc+'" alt="Portfolio Image" />');
@@ -680,6 +680,7 @@ $(window).load(function(){
 					portContent.text(content);
 					portLink.attr('href', demoLink);
 					portGitHubLink.attr('href', gitHubLink);
+					console.log(portGitHubLink);
 				}
 			});
 		});
